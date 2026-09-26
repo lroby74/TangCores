@@ -46,3 +46,5 @@ The original glue/RTL in this repo is licensed under GPL-3.0, like the NESTang c
   BL616 firmware this work builds on
 - Richard Eng — cycle-faithful PONG RTL (MIT)
 - [hdl-util/hdmi](https://github.com/hdl-util/hdmi) — HDMI transmitter core
+
+New to core development? Start with [COREDEV.md](COREDEV.md).
