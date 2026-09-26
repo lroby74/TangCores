@@ -73,6 +73,10 @@ buildall.bat
 Output: `impl/pnr/pongtang_console138k.{fs,bin}`. Copy the `.bin` to the
 microSD (or USB stick) as `cores/pongtang.bin`, insert into the Tang Console,
 power on, open the `cores` menu and select `pongtang` - no JTAG needed.
+PONG has no ROMs, so the firmware menu stays open after programming (it only
+auto-closes when loading a ROM - same for any core started via `cores`).
+Press SELECT + D-PAD RIGHT (firmware OSD combo, default key) to hide the menu
+and play; press it again to summon the menu (e.g. to switch cores).
 
 Notes:
 
