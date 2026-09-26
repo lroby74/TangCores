@@ -38,7 +38,7 @@ Requirements: Tang Console 138K with BL616 firmware (May 2025 or later).
 Each core folder contains an `ATTRIBUTION.md` with the exact sources and
 licenses of every third-party file (PONG logic: MIT, Richard Eng; system/IO
 templates: NESTang by nand2mario; HDMI core: hdl-util/hdmi).
-Original glue/RTL in this repo is MIT unless stated otherwise.
+The original glue/RTL in this repo is licensed under GPL-3.0, like the NESTang code it builds on.
 
 ## Credits
 
