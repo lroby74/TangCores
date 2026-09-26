@@ -52,3 +52,4 @@
 ## 5. ZX81 (prossimo core) — vincoli utente
 - Caricamento nastro 1:1 a velocità originale (~300 baud), MAI accelerato.
 - Espansione RAM 16KB sempre presente (molti giochi la richiedono).
+- Sorgente: https://github.com/MiSTer-devel/ZX81_MiSTer (rtl/ + T80 + keyboard da tenere, sys/pll/top da sostituire; ROM caricata da SD, NON nel repo).
