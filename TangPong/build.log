@@ -1,0 +1,504 @@
+*** GOWIN Tcl Command Line Console  *** 
+current device: GW5AST-138B  GW5AST-LV138PG484AC1/I0
+add new file: "src/pongtang_top.sv"
+add new file: "src/boards/console138k.cst"
+add new file: "src/pll/gowin_pll_27.v"
+add new file: "src/pll/gowin_pll_hdmi.v"
+add new file: "src/pll/pll_12_14m.v"
+add new file: "src/ctrl/usb_hid_host.v"
+add new file: "src/boards/pongtang.sdc"
+add new file: "src/pong/ball_horizontal.v"
+add new file: "src/pong/ball_horizontal_direction.v"
+add new file: "src/pong/ball_horizontal_move.v"
+add new file: "src/pong/ball_horizontal_video.v"
+add new file: "src/pong/ball_vertical.v"
+add new file: "src/pong/ball_vertical_counter.v"
+add new file: "src/pong/ball_vertical_move.v"
+add new file: "src/pong/dm9316.v"
+add new file: "src/pong/game_control.v"
+add new file: "src/pong/hcounter.v"
+add new file: "src/pong/hsync.v"
+add new file: "src/pong/ls00.v"
+add new file: "src/pong/ls02.v"
+add new file: "src/pong/ls04.v"
+add new file: "src/pong/ls10.v"
+add new file: "src/pong/ls107.v"
+add new file: "src/pong/ls153.v"
+add new file: "src/pong/ls20.v"
+add new file: "src/pong/ls25.v"
+add new file: "src/pong/ls27.v"
+add new file: "src/pong/ls30.v"
+add new file: "src/pong/ls48.v"
+add new file: "src/pong/ls50.v"
+add new file: "src/pong/ls74.v"
+add new file: "src/pong/ls83.v"
+add new file: "src/pong/ls86.v"
+add new file: "src/pong/ls90.v"
+add new file: "src/pong/ls93.v"
+add new file: "src/pong/net.v"
+add new file: "src/pong/paddle.v"
+add new file: "src/pong/paddles.v"
+add new file: "src/pong/png_dff.v"
+add new file: "src/pong/png_jkff.v"
+add new file: "src/pong/pong.v"
+add new file: "src/pong/score.v"
+add new file: "src/pong/score_counters.v"
+add new file: "src/pong/score_counters_to_segments.v"
+add new file: "src/pong/score_segments_to_video.v"
+add new file: "src/pong/sound.v"
+add new file: "src/pong/srlatch.v"
+add new file: "src/pong/timer.v"
+add new file: "src/pong/vcounter.v"
+add new file: "src/pong/video.v"
+add new file: "src/pong/vsync.v"
+add new file: "src/paddle_ctrl.v"
+add new file: "src/pong2hdmi.sv"
+add new file: "src/ctrl/controller_ds2.sv"
+add new file: "src/ctrl/dualshock_controller.v"
+add new file: "src/iosys/iosys_bl616.v"
+add new file: "src/iosys/gowin_dpb_menu.v"
+add new file: "src/iosys/textdisp.v"
+add new file: "src/iosys/uart_fixed.v"
+add new file: "src/hdmi2/audio_clock_regeneration_packet.sv"
+add new file: "src/hdmi2/audio_info_frame.sv"
+add new file: "src/hdmi2/audio_sample_packet.sv"
+add new file: "src/hdmi2/auxiliary_video_information_info_frame.sv"
+add new file: "src/hdmi2/hdmi.sv"
+add new file: "src/hdmi2/packet_assembler.sv"
+add new file: "src/hdmi2/packet_picker.sv"
+add new file: "src/hdmi2/serializer.sv"
+add new file: "src/hdmi2/source_product_description_info_frame.sv"
+add new file: "src/hdmi2/tmds_channel.sv"
+GowinSynthesis start
+Running parser ...
+Analyzing Verilog file 'C:\TangCores\TangPong\src\pongtang_top.sv'
+Analyzing Verilog file 'C:\TangCores\TangPong\src\pll\gowin_pll_27.v'
+Analyzing Verilog file 'C:\TangCores\TangPong\src\pll\gowin_pll_hdmi.v'
+Analyzing Verilog file 'C:\TangCores\TangPong\src\pll\pll_12_14m.v'
+Analyzing Verilog file 'C:\TangCores\TangPong\src\ctrl\usb_hid_host.v'
+Analyzing Verilog file 'C:\TangCores\TangPong\src\pong\ball_horizontal.v'
+Analyzing Verilog file 'C:\TangCores\TangPong\src\pong\ball_horizontal_direction.v'
+Analyzing Verilog file 'C:\TangCores\TangPong\src\pong\ball_horizontal_move.v'
+Analyzing Verilog file 'C:\TangCores\TangPong\src\pong\ball_horizontal_video.v'
+Analyzing Verilog file 'C:\TangCores\TangPong\src\pong\ball_vertical.v'
+Analyzing Verilog file 'C:\TangCores\TangPong\src\pong\ball_vertical_counter.v'
+Analyzing Verilog file 'C:\TangCores\TangPong\src\pong\ball_vertical_move.v'
+Analyzing Verilog file 'C:\TangCores\TangPong\src\pong\dm9316.v'
+Analyzing Verilog file 'C:\TangCores\TangPong\src\pong\game_control.v'
+Analyzing Verilog file 'C:\TangCores\TangPong\src\pong\hcounter.v'
+Analyzing Verilog file 'C:\TangCores\TangPong\src\pong\hsync.v'
+Analyzing Verilog file 'C:\TangCores\TangPong\src\pong\ls00.v'
+Analyzing Verilog file 'C:\TangCores\TangPong\src\pong\ls02.v'
+Analyzing Verilog file 'C:\TangCores\TangPong\src\pong\ls04.v'
+Analyzing Verilog file 'C:\TangCores\TangPong\src\pong\ls10.v'
+Analyzing Verilog file 'C:\TangCores\TangPong\src\pong\ls107.v'
+Analyzing Verilog file 'C:\TangCores\TangPong\src\pong\ls153.v'
+Analyzing Verilog file 'C:\TangCores\TangPong\src\pong\ls20.v'
+Analyzing Verilog file 'C:\TangCores\TangPong\src\pong\ls25.v'
+Analyzing Verilog file 'C:\TangCores\TangPong\src\pong\ls27.v'
+Analyzing Verilog file 'C:\TangCores\TangPong\src\pong\ls30.v'
+Analyzing Verilog file 'C:\TangCores\TangPong\src\pong\ls48.v'
+Analyzing Verilog file 'C:\TangCores\TangPong\src\pong\ls50.v'
+Analyzing Verilog file 'C:\TangCores\TangPong\src\pong\ls74.v'
+Analyzing Verilog file 'C:\TangCores\TangPong\src\pong\ls83.v'
+Analyzing Verilog file 'C:\TangCores\TangPong\src\pong\ls86.v'
+Analyzing Verilog file 'C:\TangCores\TangPong\src\pong\ls90.v'
+Analyzing Verilog file 'C:\TangCores\TangPong\src\pong\ls93.v'
+Analyzing Verilog file 'C:\TangCores\TangPong\src\pong\net.v'
+Analyzing Verilog file 'C:\TangCores\TangPong\src\pong\paddle.v'
+Analyzing Verilog file 'C:\TangCores\TangPong\src\pong\paddles.v'
+Analyzing Verilog file 'C:\TangCores\TangPong\src\pong\png_dff.v'
+Analyzing Verilog file 'C:\TangCores\TangPong\src\pong\png_jkff.v'
+Analyzing Verilog file 'C:\TangCores\TangPong\src\pong\pong.v'
+Analyzing Verilog file 'C:\TangCores\TangPong\src\pong\score.v'
+Analyzing Verilog file 'C:\TangCores\TangPong\src\pong\score_counters.v'
+Analyzing Verilog file 'C:\TangCores\TangPong\src\pong\score_counters_to_segments.v'
+Analyzing Verilog file 'C:\TangCores\TangPong\src\pong\score_segments_to_video.v'
+Analyzing Verilog file 'C:\TangCores\TangPong\src\pong\sound.v'
+Analyzing Verilog file 'C:\TangCores\TangPong\src\pong\srlatch.v'
+Analyzing Verilog file 'C:\TangCores\TangPong\src\pong\timer.v'
+Analyzing Verilog file 'C:\TangCores\TangPong\src\pong\vcounter.v'
+Analyzing Verilog file 'C:\TangCores\TangPong\src\pong\video.v'
+Analyzing Verilog file 'C:\TangCores\TangPong\src\pong\vsync.v'
+Analyzing Verilog file 'C:\TangCores\TangPong\src\paddle_ctrl.v'
+WARN  (EX2478) : Non-net output port 'vpos' cannot be initialized at declaration in SystemVerilog mode("C:\TangCores\TangPong\src\paddle_ctrl.v":16)
+Analyzing Verilog file 'C:\TangCores\TangPong\src\pong2hdmi.sv'
+Analyzing Verilog file 'C:\TangCores\TangPong\src\ctrl\controller_ds2.sv'
+Analyzing Verilog file 'C:\TangCores\TangPong\src\ctrl\dualshock_controller.v'
+Analyzing Verilog file 'C:\TangCores\TangPong\src\iosys\iosys_bl616.v'
+Undeclared symbol 'tx_busy', assumed default net type 'wire'("C:\TangCores\TangPong\src\iosys\iosys_bl616.v":104)
+WARN  (EX3786) : Assignment to input 'kbd_data'("C:\TangCores\TangPong\src\iosys\iosys_bl616.v":305)
+WARN  (EX2350) : Illegal assignment to variable input port 'kbd_data'("C:\TangCores\TangPong\src\iosys\iosys_bl616.v":305)
+Analyzing Verilog file 'C:\TangCores\TangPong\src\iosys\gowin_dpb_menu.v'
+Analyzing Verilog file 'C:\TangCores\TangPong\src\iosys\textdisp.v'
+Analyzing Verilog file 'C:\TangCores\TangPong\src\iosys\uart_fixed.v'
+WARN  (EX2478) : Non-net output port 'RxD_data_ready' cannot be initialized at declaration in SystemVerilog mode("C:\TangCores\TangPong\src\iosys\uart_fixed.v":77)
+WARN  (EX2478) : Non-net output port 'RxD_data' cannot be initialized at declaration in SystemVerilog mode("C:\TangCores\TangPong\src\iosys\uart_fixed.v":78)
+WARN  (EX2478) : Non-net output port 'RxD_endofpacket' cannot be initialized at declaration in SystemVerilog mode("C:\TangCores\TangPong\src\iosys\uart_fixed.v":84)
+Analyzing Verilog file 'C:\TangCores\TangPong\src\hdmi2\audio_clock_regeneration_packet.sv'
+WARN  (EX2478) : Non-net output port 'clk_audio_counter_wrap' cannot be initialized at declaration in SystemVerilog mode("C:\TangCores\TangPong\src\hdmi2\audio_clock_regeneration_packet.sv":13)
+Analyzing Verilog file 'C:\TangCores\TangPong\src\hdmi2\audio_info_frame.sv'
+Analyzing Verilog file 'C:\TangCores\TangPong\src\hdmi2\audio_sample_packet.sv'
+Analyzing Verilog file 'C:\TangCores\TangPong\src\hdmi2\auxiliary_video_information_info_frame.sv'
+Analyzing Verilog file 'C:\TangCores\TangPong\src\hdmi2\hdmi.sv'
+WARN  (EX2478) : Non-net output port 'cx' cannot be initialized at declaration in SystemVerilog mode("C:\TangCores\TangPong\src\hdmi2\hdmi.sv":81)
+WARN  (EX2478) : Non-net output port 'cy' cannot be initialized at declaration in SystemVerilog mode("C:\TangCores\TangPong\src\hdmi2\hdmi.sv":82)
+Analyzing Verilog file 'C:\TangCores\TangPong\src\hdmi2\packet_assembler.sv'
+WARN  (EX2478) : Non-net output port 'counter' cannot be initialized at declaration in SystemVerilog mode("C:\TangCores\TangPong\src\hdmi2\packet_assembler.sv":11)
+Analyzing Verilog file 'C:\TangCores\TangPong\src\hdmi2\packet_picker.sv'
+Analyzing Verilog file 'C:\TangCores\TangPong\src\hdmi2\serializer.sv'
+Analyzing Verilog file 'C:\TangCores\TangPong\src\hdmi2\source_product_description_info_frame.sv'
+Analyzing Verilog file 'C:\TangCores\TangPong\src\hdmi2\tmds_channel.sv'
+WARN  (EX2478) : Non-net output port 'tmds' cannot be initialized at declaration in SystemVerilog mode("C:\TangCores\TangPong\src\hdmi2\tmds_channel.sv":16)
+WARN  (EX3073) : Port 'report' remains unconnected for this instance("C:\TangCores\TangPong\src\pongtang_top.sv":162)
+WARN  (EX3073) : Port 'report' remains unconnected for this instance("C:\TangCores\TangPong\src\pongtang_top.sv":166)
+WARN  (EX3073) : Port 'mgmt_address' remains unconnected for this instance("C:\TangCores\TangPong\src\pongtang_top.sv":285)
+Compiling module 'pongtang_top'("C:\TangCores\TangPong\src\pongtang_top.sv":11)
+Compiling module 'pll_12_14m'("C:\TangCores\TangPong\src\pll\pll_12_14m.v":10)
+Compiling module 'gowin_pll_27'("C:\TangCores\TangPong\src\pll\gowin_pll_27.v":10)
+Compiling module 'gowin_pll_hdmi'("C:\TangCores\TangPong\src\pll\gowin_pll_hdmi.v":10)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 8("C:\TangCores\TangPong\src\pongtang_top.sv":121)
+Compiling module 'controller_ds2(FREQ=50000000)'("C:\TangCores\TangPong\src\ctrl\controller_ds2.sv":3)
+Compiling module 'dualshock_controller(FREQ=50000000)'("C:\TangCores\TangPong\src\ctrl\dualshock_controller.v":46)
+WARN  (EX3791) : Expression size 9 truncated to fit in target size 8("C:\TangCores\TangPong\src\ctrl\dualshock_controller.v":74)
+Compiling module 'ps_pls_gan'("C:\TangCores\TangPong\src\ctrl\dualshock_controller.v":144)
+WARN  (EX3791) : Expression size 12 truncated to fit in target size 11("C:\TangCores\TangPong\src\ctrl\dualshock_controller.v":171)
+Compiling module 'ps_txd'("C:\TangCores\TangPong\src\ctrl\dualshock_controller.v":262)
+Compiling module 'ps_rxd'("C:\TangCores\TangPong\src\ctrl\dualshock_controller.v":237)
+Compiling module 'usb_hid_host'("C:\TangCores\TangPong\src\ctrl\usb_hid_host.v":13)
+Compiling module 'ukp'("C:\TangCores\TangPong\src\ctrl\usb_hid_host.v":188)
+Compiling module 'usb_hid_host_rom'("C:\TangCores\TangPong\src\ctrl\usb_hid_host.v":391)
+Extracting RAM for identifier 'mem'("C:\TangCores\TangPong\src\ctrl\usb_hid_host.v":396)
+WARN  (EX3791) : Expression size 4 truncated to fit in target size 1("C:\TangCores\TangPong\src\ctrl\usb_hid_host.v":266)
+WARN  (EX3791) : Expression size 15 truncated to fit in target size 14("C:\TangCores\TangPong\src\ctrl\usb_hid_host.v":309)
+WARN  (EX3791) : Expression size 15 truncated to fit in target size 14("C:\TangCores\TangPong\src\ctrl\usb_hid_host.v":317)
+WARN  (EX3791) : Expression size 4 truncated to fit in target size 3("C:\TangCores\TangPong\src\ctrl\usb_hid_host.v":327)
+WARN  (EX3791) : Expression size 4 truncated to fit in target size 3("C:\TangCores\TangPong\src\ctrl\usb_hid_host.v":345)
+WARN  (EX3791) : Expression size 8 truncated to fit in target size 7("C:\TangCores\TangPong\src\ctrl\usb_hid_host.v":352)
+WARN  (EX3791) : Expression size 4 truncated to fit in target size 3("C:\TangCores\TangPong\src\ctrl\usb_hid_host.v":355)
+WARN  (EX3791) : Expression size 15 truncated to fit in target size 14("C:\TangCores\TangPong\src\ctrl\usb_hid_host.v":365)
+WARN  (EX3791) : Expression size 25 truncated to fit in target size 24("C:\TangCores\TangPong\src\ctrl\usb_hid_host.v":374)
+WARN  (EX3791) : Expression size 5 truncated to fit in target size 4("C:\TangCores\TangPong\src\ctrl\usb_hid_host.v":152)
+WARN  (EX3791) : Expression size 18 truncated to fit in target size 17("C:\TangCores\TangPong\src\pongtang_top.sv":205)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 23("C:\TangCores\TangPong\src\pongtang_top.sv":227)
+Compiling module 'paddle_ctrl'("C:\TangCores\TangPong\src\paddle_ctrl.v":7)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 8("C:\TangCores\TangPong\src\paddle_ctrl.v":28)
+WARN  (EX3791) : Expression size 9 truncated to fit in target size 8("C:\TangCores\TangPong\src\paddle_ctrl.v":30)
+Compiling module 'pong'("C:\TangCores\TangPong\src\pong\pong.v":33)
+Compiling module 'hcounter'("C:\TangCores\TangPong\src\pong\hcounter.v":31)
+Compiling module 'hsync'("C:\TangCores\TangPong\src\pong\hsync.v":31)
+Compiling module 'srlatch'("C:\TangCores\TangPong\src\pong\srlatch.v":34)
+Compiling module 'vcounter'("C:\TangCores\TangPong\src\pong\vcounter.v":31)
+Compiling module 'vsync'("C:\TangCores\TangPong\src\pong\vsync.v":31)
+Compiling module 'net'("C:\TangCores\TangPong\src\pong\net.v":31)
+Compiling module 'ls107'("C:\TangCores\TangPong\src\pong\ls107.v":45)
+Compiling module 'ls00'("C:\TangCores\TangPong\src\pong\ls00.v":45)
+Compiling module 'ls27'("C:\TangCores\TangPong\src\pong\ls27.v":45)
+Compiling module 'sound'("C:\TangCores\TangPong\src\pong\sound.v":31)
+Compiling module 'timer(CLK_FREQ=7159000,DURATION_MS=240)'("C:\TangCores\TangPong\src\pong\timer.v":32)
+Compiling module 'ls74'("C:\TangCores\TangPong\src\pong\ls74.v":46)
+Compiling module 'ls10'("C:\TangCores\TangPong\src\pong\ls10.v":45)
+Compiling module 'video'("C:\TangCores\TangPong\src\pong\video.v":31)
+Compiling module 'ls86'("C:\TangCores\TangPong\src\pong\ls86.v":45)
+Compiling module 'ls04'("C:\TangCores\TangPong\src\pong\ls04.v":45)
+Compiling module 'ls25'("C:\TangCores\TangPong\src\pong\ls25.v":43)
+Compiling module 'ls02'("C:\TangCores\TangPong\src\pong\ls02.v":45)
+Compiling module 'score'("C:\TangCores\TangPong\src\pong\score.v":31)
+Compiling module 'score_counters'("C:\TangCores\TangPong\src\pong\score_counters.v":31)
+Compiling module 'ls20'("C:\TangCores\TangPong\src\pong\ls20.v":45)
+Compiling module 'ls90'("C:\TangCores\TangPong\src\pong\ls90.v":45)
+Compiling module 'png_jkff'("C:\TangCores\TangPong\src\pong\png_jkff.v":30)
+Compiling module 'score_counters_to_segments'("C:\TangCores\TangPong\src\pong\score_counters_to_segments.v":31)
+Compiling module 'ls153'("C:\TangCores\TangPong\src\pong\ls153.v":46)
+Compiling module 'ls48'("C:\TangCores\TangPong\src\pong\ls48.v":46)
+Compiling module 'score_segments_to_video'("C:\TangCores\TangPong\src\pong\score_segments_to_video.v":31)
+Compiling module 'ls30'("C:\TangCores\TangPong\src\pong\ls30.v":45)
+Compiling module 'ball_horizontal'("C:\TangCores\TangPong\src\pong\ball_horizontal.v":31)
+Compiling module 'ball_horizontal_move'("C:\TangCores\TangPong\src\pong\ball_horizontal_move.v":31)
+Compiling module 'ls93'("C:\TangCores\TangPong\src\pong\ls93.v":45)
+Compiling module 'ball_horizontal_direction'("C:\TangCores\TangPong\src\pong\ball_horizontal_direction.v":31)
+Compiling module 'ball_horizontal_video'("C:\TangCores\TangPong\src\pong\ball_horizontal_video.v":31)
+Compiling module 'dm9316'("C:\TangCores\TangPong\src\pong\dm9316.v":46)
+Compiling module 'ball_vertical'("C:\TangCores\TangPong\src\pong\ball_vertical.v":31)
+Compiling module 'ball_vertical_move'("C:\TangCores\TangPong\src\pong\ball_vertical_move.v":31)
+Compiling module 'ls50'("C:\TangCores\TangPong\src\pong\ls50.v":45)
+Compiling module 'ls83'("C:\TangCores\TangPong\src\pong\ls83.v":46)
+Compiling module 'ball_vertical_counter'("C:\TangCores\TangPong\src\pong\ball_vertical_counter.v":31)
+Compiling module 'game_control'("C:\TangCores\TangPong\src\pong\game_control.v":31)
+Compiling module 'timer(CLK_FREQ=7159000,DURATION_MS=1700)'("C:\TangCores\TangPong\src\pong\timer.v":32)
+Compiling module 'paddles'("C:\TangCores\TangPong\src\pong\paddles.v":31)
+Compiling module 'paddle'("C:\TangCores\TangPong\src\pong\paddle.v":31)
+WARN  (EX3073) : Port 'RxD_idle' remains unconnected for this instance("C:\TangCores\TangPong\src\iosys\iosys_bl616.v":94)
+WARN  (EX2350) : Illegal assignment to variable input port 'kbd_data'("C:\TangCores\TangPong\src\iosys\iosys_bl616.v":305)
+Compiling module 'iosys_bl616(FREQ=50000000,COLOR_LOGO=15'h7FFF,CORE_ID=7)'("C:\TangCores\TangPong\src\iosys\iosys_bl616.v":10)
+Compiling module 'async_receiver(ClkFrequency=50000000,Baud=2000000)'("C:\TangCores\TangPong\src\iosys\uart_fixed.v":74)
+Compiling module 'BaudTickGen(ClkFrequency=50000000,Baud=2000000,Oversampling=8)'("C:\TangCores\TangPong\src\iosys\uart_fixed.v":184)
+Compiling module 'async_transmitter(ClkFrequency=50000000,Baud=2000000)'("C:\TangCores\TangPong\src\iosys\uart_fixed.v":13)
+Compiling module 'BaudTickGen(ClkFrequency=50000000,Baud=2000000)'("C:\TangCores\TangPong\src\iosys\uart_fixed.v":184)
+WARN  (EX3791) : Expression size 17 truncated to fit in target size 16("C:\TangCores\TangPong\src\iosys\iosys_bl616.v":237)
+WARN  (EX3791) : Expression size 9 truncated to fit in target size 8("C:\TangCores\TangPong\src\iosys\iosys_bl616.v":259)
+Driving port 'kbd_data[7]' is declared here("C:\TangCores\TangPong\src\iosys\iosys_bl616.v":46)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 20("C:\TangCores\TangPong\src\iosys\iosys_bl616.v":365)
+WARN  (EX3791) : Expression size 8 truncated to fit in target size 7("C:\TangCores\TangPong\src\iosys\iosys_bl616.v":404)
+WARN  (EX3791) : Expression size 8 truncated to fit in target size 7("C:\TangCores\TangPong\src\iosys\iosys_bl616.v":432)
+WARN  (EX3791) : Expression size 8 truncated to fit in target size 7("C:\TangCores\TangPong\src\iosys\iosys_bl616.v":450)
+WARN  (EX3791) : Expression size 8 truncated to fit in target size 7("C:\TangCores\TangPong\src\iosys\iosys_bl616.v":473)
+WARN  (EX3791) : Expression size 8 truncated to fit in target size 7("C:\TangCores\TangPong\src\iosys\iosys_bl616.v":491)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 4("C:\TangCores\TangPong\src\iosys\iosys_bl616.v":526)
+Compiling module 'textdisp(COLOR_LOGO=15'b111111111111111)'("C:\TangCores\TangPong\src\iosys\textdisp.v":4)
+WARN  (EX3791) : Expression size 8 truncated to fit in target size 2("C:\TangCores\TangPong\src\iosys\textdisp.v":41)
+Compiling module 'gowin_dpb_menu'("C:\TangCores\TangPong\src\iosys\gowin_dpb_menu.v":10)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 8("C:\TangCores\TangPong\src\iosys\textdisp.v":109)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 8("C:\TangCores\TangPong\src\iosys\textdisp.v":110)
+WARN  (EX3791) : Expression size 11 truncated to fit in target size 7("C:\TangCores\TangPong\src\iosys\textdisp.v":111)
+WARN  (EX2565) : Input 'ocea' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("C:\TangCores\TangPong\src\iosys\textdisp.v":59)
+WARN  (EX2565) : Input 'oceb' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("C:\TangCores\TangPong\src\iosys\textdisp.v":59)
+WARN  (EX2565) : Input 'dinb[7]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("C:\TangCores\TangPong\src\iosys\textdisp.v":59)
+WARN  (EX2565) : Input 'dinb[6]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("C:\TangCores\TangPong\src\iosys\textdisp.v":59)
+WARN  (EX2565) : Input 'dinb[5]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("C:\TangCores\TangPong\src\iosys\textdisp.v":59)
+WARN  (EX2565) : Input 'dinb[4]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("C:\TangCores\TangPong\src\iosys\textdisp.v":59)
+WARN  (EX2565) : Input 'dinb[3]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("C:\TangCores\TangPong\src\iosys\textdisp.v":59)
+WARN  (EX2565) : Input 'dinb[2]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("C:\TangCores\TangPong\src\iosys\textdisp.v":59)
+WARN  (EX2565) : Input 'dinb[1]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("C:\TangCores\TangPong\src\iosys\textdisp.v":59)
+WARN  (EX2565) : Input 'dinb[0]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("C:\TangCores\TangPong\src\iosys\textdisp.v":59)
+Port is declared here("C:\TangCores\TangPong\src\iosys\iosys_bl616.v":46)
+Compiling module 'pong2hdmi'("C:\TangCores\TangPong\src\pong2hdmi.sv":8)
+Extracting RAM for identifier 'mem'("C:\TangCores\TangPong\src\pong2hdmi.sv":54)
+WARN  (EX3791) : Expression size 9 truncated to fit in target size 8("C:\TangCores\TangPong\src\pong2hdmi.sv":91)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 10("C:\TangCores\TangPong\src\pong2hdmi.sv":95)
+WARN  (EX3791) : Expression size 9 truncated to fit in target size 8("C:\TangCores\TangPong\src\pong2hdmi.sv":100)
+WARN  (EX3791) : Expression size 11 truncated to fit in target size 10("C:\TangCores\TangPong\src\pong2hdmi.sv":102)
+WARN  (EX3791) : Expression size 11 truncated to fit in target size 10("C:\TangCores\TangPong\src\pong2hdmi.sv":119)
+WARN  (EX3791) : Expression size 12 truncated to fit in target size 11("C:\TangCores\TangPong\src\pong2hdmi.sv":167)
+WARN  (EX3791) : Expression size 12 truncated to fit in target size 11("C:\TangCores\TangPong\src\pong2hdmi.sv":168)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 11("C:\TangCores\TangPong\src\pong2hdmi.sv":176)
+WARN  (EX3791) : Expression size 9 truncated to fit in target size 8("C:\TangCores\TangPong\src\pong2hdmi.sv":176)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 11("C:\TangCores\TangPong\src\pong2hdmi.sv":182)
+WARN  (EX3791) : Expression size 9 truncated to fit in target size 8("C:\TangCores\TangPong\src\pong2hdmi.sv":182)
+Compiling module 'hdmi(VIDEO_ID_CODE=4,VIDEO_REFRESH_RATE=60.0,AUDIO_RATE=48000,VENDOR_NAME="TangCore",PRODUCT_DESCRIPTION=128'b01010000011011110110111001100111010101000110000101101110011001110000000000000000000000000000000000000000000000000000000000000000)'("C:\TangCores\TangPong\src\hdmi2\hdmi.sv":4)
+Compiling module 'packet_picker(VIDEO_RATE=74250000.0,IT_CONTENT=1'b1,AUDIO_BIT_WIDTH=16,AUDIO_RATE=48000,VENDOR_NAME="TangCore",PRODUCT_DESCRIPTION=128'b01010000011011110110111001100111010101000110000101101110011001110000000000000000000000000000000000000000000000000000000000000000,SOURCE_DEVICE_INFORMATION=8'b00000000)'("C:\TangCores\TangPong\src\hdmi2\packet_picker.sv":4)
+Extracting RAM for identifier 'audio_sample_word_buffer'("C:\TangCores\TangPong\src\hdmi2\packet_picker.sv":84)
+Compiling module 'audio_clock_regeneration_packet(VIDEO_RATE=74250000.0,AUDIO_RATE=48000)'("C:\TangCores\TangPong\src\hdmi2\audio_clock_regeneration_packet.sv":5)
+WARN  (EX3791) : Expression size 64 truncated to fit in target size 20("C:\TangCores\TangPong\src\hdmi2\audio_clock_regeneration_packet.sv":50)
+Compiling module 'audio_sample_packet(SAMPLING_FREQUENCY=4'b0010,WORD_LENGTH=4'b0010)'("C:\TangCores\TangPong\src\hdmi2\audio_sample_packet.sv":8)
+WARN  (EX3780) : Using initial value of 'CHANNEL_LEFT' since it is never assigned("C:\TangCores\TangPong\src\hdmi2\audio_sample_packet.sv":63)
+WARN  (EX3780) : Using initial value of 'CHANNEL_RIGHT' since it is never assigned("C:\TangCores\TangPong\src\hdmi2\audio_sample_packet.sv":64)
+Compiling module 'auxiliary_video_information_info_frame(IT_CONTENT=1'b1)'("C:\TangCores\TangPong\src\hdmi2\auxiliary_video_information_info_frame.sv":5)
+Compiling module 'source_product_description_info_frame(VENDOR_NAME="TangCore",PRODUCT_DESCRIPTION=128'b01010000011011110110111001100111010101000110000101101110011001110000000000000000000000000000000000000000000000000000000000000000,SOURCE_DEVICE_INFORMATION=8'b00000000)'("C:\TangCores\TangPong\src\hdmi2\source_product_description_info_frame.sv":5)
+Compiling module 'audio_info_frame'("C:\TangCores\TangPong\src\hdmi2\audio_info_frame.sv":5)
+WARN  (EX1998) : Net 'headers[255][23]' does not have a driver("C:\TangCores\TangPong\src\hdmi2\packet_picker.sv":29)
+WARN  (EX1998) : Net 'subs[255][3][55]' does not have a driver("C:\TangCores\TangPong\src\hdmi2\packet_picker.sv":30)
+Compiling module 'packet_assembler'("C:\TangCores\TangPong\src\hdmi2\packet_assembler.sv":4)
+Compiling module 'tmds_channel'("C:\TangCores\TangPong\src\hdmi2\tmds_channel.sv":4)
+Compiling module 'tmds_channel(CN=1)'("C:\TangCores\TangPong\src\hdmi2\tmds_channel.sv":4)
+Compiling module 'tmds_channel(CN=2)'("C:\TangCores\TangPong\src\hdmi2\tmds_channel.sv":4)
+Compiling module 'serializer(VIDEO_RATE=74250000.0)'("C:\TangCores\TangPong\src\hdmi2\serializer.sv":3)
+WARN  (EX3791) : Expression size 24 truncated to fit in target size 23("C:\TangCores\TangPong\src\pongtang_top.sv":327)
+WARN  (EX2565) : Input 'mgmt_readdata[15]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("C:\TangCores\TangPong\src\pongtang_top.sv":285)
+WARN  (EX2565) : Input 'mgmt_readdata[14]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("C:\TangCores\TangPong\src\pongtang_top.sv":285)
+WARN  (EX2565) : Input 'mgmt_readdata[13]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("C:\TangCores\TangPong\src\pongtang_top.sv":285)
+WARN  (EX2565) : Input 'mgmt_readdata[12]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("C:\TangCores\TangPong\src\pongtang_top.sv":285)
+WARN  (EX2565) : Input 'mgmt_readdata[11]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("C:\TangCores\TangPong\src\pongtang_top.sv":285)
+WARN  (EX2565) : Input 'mgmt_readdata[10]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("C:\TangCores\TangPong\src\pongtang_top.sv":285)
+WARN  (EX2565) : Input 'mgmt_readdata[9]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("C:\TangCores\TangPong\src\pongtang_top.sv":285)
+WARN  (EX2565) : Input 'mgmt_readdata[8]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("C:\TangCores\TangPong\src\pongtang_top.sv":285)
+WARN  (EX2565) : Input 'mgmt_readdata[7]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("C:\TangCores\TangPong\src\pongtang_top.sv":285)
+WARN  (EX2565) : Input 'mgmt_readdata[6]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("C:\TangCores\TangPong\src\pongtang_top.sv":285)
+WARN  (EX2565) : Input 'mgmt_readdata[5]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("C:\TangCores\TangPong\src\pongtang_top.sv":285)
+WARN  (EX2565) : Input 'mgmt_readdata[4]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("C:\TangCores\TangPong\src\pongtang_top.sv":285)
+WARN  (EX2565) : Input 'mgmt_readdata[3]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("C:\TangCores\TangPong\src\pongtang_top.sv":285)
+WARN  (EX2565) : Input 'mgmt_readdata[2]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("C:\TangCores\TangPong\src\pongtang_top.sv":285)
+WARN  (EX2565) : Input 'mgmt_readdata[1]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("C:\TangCores\TangPong\src\pongtang_top.sv":285)
+WARN  (EX2565) : Input 'mgmt_readdata[0]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("C:\TangCores\TangPong\src\pongtang_top.sv":285)
+WARN  (EX2565) : Input 'fdd_request[1]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("C:\TangCores\TangPong\src\pongtang_top.sv":285)
+WARN  (EX2565) : Input 'fdd_request[0]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("C:\TangCores\TangPong\src\pongtang_top.sv":285)
+WARN  (EX2565) : Input 'kbd_data[7]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("C:\TangCores\TangPong\src\pongtang_top.sv":285)
+WARN  (EX2565) : Input 'kbd_data[6]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("C:\TangCores\TangPong\src\pongtang_top.sv":285)
+WARN  (EX2565) : Input 'kbd_data[5]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("C:\TangCores\TangPong\src\pongtang_top.sv":285)
+WARN  (EX2565) : Input 'kbd_data[4]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("C:\TangCores\TangPong\src\pongtang_top.sv":285)
+WARN  (EX2565) : Input 'kbd_data[3]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("C:\TangCores\TangPong\src\pongtang_top.sv":285)
+WARN  (EX2565) : Input 'kbd_data[2]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("C:\TangCores\TangPong\src\pongtang_top.sv":285)
+WARN  (EX2565) : Input 'kbd_data[1]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("C:\TangCores\TangPong\src\pongtang_top.sv":285)
+WARN  (EX2565) : Input 'kbd_data[0]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("C:\TangCores\TangPong\src\pongtang_top.sv":285)
+NOTE  (EX0101) : Current top module is "pongtang_top"
+WARN  (AG0100) : Find logical loop signal : "d1"("C:\TangCores\TangPong\src\pong\ls48.v":59)
+WARN  (AG0100) : Find logical loop signal : "d2"("C:\TangCores\TangPong\src\pong\ls48.v":60)
+WARN  (AG0100) : Find logical loop signal : "a2_2"("C:\TangCores\TangPong\src\pong\ls48.v":62)
+WARN  (AG0100) : Find logical loop signal : "d1"("C:\TangCores\TangPong\src\pong\ls48.v":59)
+WARN  (AG0101) : The netlist is not one directed acyclic graph
+[5%] Running netlist conversion ...
+Running device independent optimization ...
+WARN  (DI0004) : Register "left" has both asynchronous set and reset. Your design may not work on the board. GoWin recommends you change your RTL. This warning is only issued once, although it may apply to other registers as well
+WARN  (DI0002) : Initial value found on instance "q" will be ignored("C:\TangCores\TangPong\src\pong\ls74.v":64)
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+WARN  (NL0002) : The module "ls00" instantiated to "c1d" is swept in optimizing("C:\TangCores\TangPong\src\pong\ball_horizontal_direction.v":38)
+WARN  (NL0002) : The module "ls00" instantiated to "h4b" is swept in optimizing("C:\TangCores\TangPong\src\pong\ball_horizontal_direction.v":47)
+WARN  (NL0002) : The module "ls00" instantiated to "h4c" is swept in optimizing("C:\TangCores\TangPong\src\pong\ball_horizontal_direction.v":48)
+WARN  (NL0002) : The module "ls00" instantiated to "h4d" is swept in optimizing("C:\TangCores\TangPong\src\pong\ball_horizontal_direction.v":46)
+WARN  (NL0002) : The module "ls00" instantiated to "e1c" is swept in optimizing("C:\TangCores\TangPong\src\pong\ball_horizontal_move.v":44)
+WARN  (NL0002) : The module "ls00" instantiated to "e1d" is swept in optimizing("C:\TangCores\TangPong\src\pong\ball_horizontal_move.v":38)
+WARN  (NL0002) : The module "ls02" instantiated to "g1c" is swept in optimizing("C:\TangCores\TangPong\src\pong\ball_horizontal_move.v":62)
+WARN  (NL0002) : The module "ls02" instantiated to "g1d" is swept in optimizing("C:\TangCores\TangPong\src\pong\ball_horizontal_move.v":47)
+WARN  (NL0002) : The module "ls00" instantiated to "h1a" is swept in optimizing("C:\TangCores\TangPong\src\pong\ball_horizontal_move.v":50)
+WARN  (NL0002) : The module "ls00" instantiated to "h1b" is swept in optimizing("C:\TangCores\TangPong\src\pong\ball_horizontal_move.v":59)
+WARN  (NL0002) : The module "ls00" instantiated to "h1c" is swept in optimizing("C:\TangCores\TangPong\src\pong\ball_horizontal_move.v":56)
+WARN  (NL0002) : The module "ls00" instantiated to "h1d" is swept in optimizing("C:\TangCores\TangPong\src\pong\ball_horizontal_move.v":53)
+WARN  (NL0002) : The module "ls00" instantiated to "h4a" is swept in optimizing("C:\TangCores\TangPong\src\pong\ball_horizontal_move.v":70)
+WARN  (NL0002) : The module "ls00" instantiated to "e1b" is swept in optimizing("C:\TangCores\TangPong\src\pong\ball_horizontal_video.v":38)
+WARN  (NL0002) : The module "ls10" instantiated to "g5c" is swept in optimizing("C:\TangCores\TangPong\src\pong\ball_horizontal_video.v":49)
+WARN  (NL0002) : The module "ls20" instantiated to "h6b" is swept in optimizing("C:\TangCores\TangPong\src\pong\ball_horizontal_video.v":50)
+WARN  (NL0002) : The module "ls00" instantiated to "b2b" is swept in optimizing("C:\TangCores\TangPong\src\pong\ball_vertical_counter.v":44)
+WARN  (NL0002) : The module "ls02" instantiated to "d2d" is swept in optimizing("C:\TangCores\TangPong\src\pong\ball_vertical_counter.v":49)
+WARN  (NL0002) : The module "ls10" instantiated to "e2b" is swept in optimizing("C:\TangCores\TangPong\src\pong\ball_vertical_counter.v":47)
+WARN  (NL0002) : The module "ls86" instantiated to "a4b" is swept in optimizing("C:\TangCores\TangPong\src\pong\ball_vertical_move.v":65)
+WARN  (NL0002) : The module "ls86" instantiated to "a4c" is swept in optimizing("C:\TangCores\TangPong\src\pong\ball_vertical_move.v":68)
+WARN  (NL0002) : The module "ls83" instantiated to "b4" is swept in optimizing("C:\TangCores\TangPong\src\pong\ball_vertical_move.v":74)
+WARN  (NL0002) : The module "ls50" instantiated to "b6a" is swept in optimizing("C:\TangCores\TangPong\src\pong\ball_vertical_move.v":62)
+WARN  (NL0002) : The module "ls10" instantiated to "c4a" is swept in optimizing("C:\TangCores\TangPong\src\pong\ball_vertical_move.v":71)
+WARN  (NL0002) : The module "ls04" instantiated to "d1c" is swept in optimizing("C:\TangCores\TangPong\src\pong\ball_vertical_move.v":47)
+WARN  (NL0002) : The module "ls04" instantiated to "d1b" is swept in optimizing("C:\TangCores\TangPong\src\pong\game_control.v":55)
+WARN  (NL0002) : The module "ls02" instantiated to "d2a" is swept in optimizing("C:\TangCores\TangPong\src\pong\game_control.v":54)
+WARN  (NL0002) : The module "ls00" instantiated to "e6a" is swept in optimizing("C:\TangCores\TangPong\src\pong\game_control.v":42)
+WARN  (NL0002) : The module "ls27" instantiated to "g2b" is swept in optimizing("C:\TangCores\TangPong\src\pong\net.v":41)
+WARN  (NL0002) : The module "ls00" instantiated to "g3b" is swept in optimizing("C:\TangCores\TangPong\src\pong\net.v":40)
+WARN  (NL0002) : The module "ls27" instantiated to "g2a" is swept in optimizing("C:\TangCores\TangPong\src\pong\paddles.v":57)
+WARN  (NL0002) : The module "ls00" instantiated to "g3c" is swept in optimizing("C:\TangCores\TangPong\src\pong\paddles.v":50)
+WARN  (NL0002) : The module "ls20" instantiated to "a7a_b" is swept in optimizing("C:\TangCores\TangPong\src\pong\paddle.v":44)
+WARN  (NL0002) : The module "ls00" instantiated to "b7a_d" is swept in optimizing("C:\TangCores\TangPong\src\pong\paddle.v":52)
+WARN  (NL0002) : The module "ls00" instantiated to "b7b_c" is swept in optimizing("C:\TangCores\TangPong\src\pong\paddle.v":38)
+WARN  (NL0002) : The module "ls04" instantiated to "c9a_b" is swept in optimizing("C:\TangCores\TangPong\src\pong\paddle.v":49)
+WARN  (NL0002) : The module "ls20" instantiated to "a7a_b" is swept in optimizing("C:\TangCores\TangPong\src\pong\paddle.v":44)
+WARN  (NL0002) : The module "ls00" instantiated to "b7a_d" is swept in optimizing("C:\TangCores\TangPong\src\pong\paddle.v":52)
+WARN  (NL0002) : The module "ls00" instantiated to "b7b_c" is swept in optimizing("C:\TangCores\TangPong\src\pong\paddle.v":38)
+WARN  (NL0002) : The module "ls04" instantiated to "c9a_b" is swept in optimizing("C:\TangCores\TangPong\src\pong\paddle.v":49)
+WARN  (NL0002) : The module "ls04" instantiated to "d1f" is swept in optimizing("C:\TangCores\TangPong\src\pong\score_counters.v":43)
+WARN  (NL0002) : The module "ls10" instantiated to "d8a" is swept in optimizing("C:\TangCores\TangPong\src\pong\score_counters.v":58)
+WARN  (NL0002) : The module "ls10" instantiated to "d8b" is swept in optimizing("C:\TangCores\TangPong\src\pong\score_counters.v":60)
+WARN  (NL0002) : The module "ls00" instantiated to "e1a" is swept in optimizing("C:\TangCores\TangPong\src\pong\score_counters.v":44)
+WARN  (NL0002) : The module "ls00" instantiated to "e6c" is swept in optimizing("C:\TangCores\TangPong\src\pong\score_counters.v":42)
+WARN  (NL0002) : The module "ls02" instantiated to "f5a" is swept in optimizing("C:\TangCores\TangPong\src\pong\score_counters.v":46)
+WARN  (NL0002) : The module "ls02" instantiated to "f5b" is swept in optimizing("C:\TangCores\TangPong\src\pong\score_counters.v":45)
+WARN  (NL0002) : The module "ls20" instantiated to "h6a" is swept in optimizing("C:\TangCores\TangPong\src\pong\score_counters.v":41)
+WARN  (NL0002) : The module "ls153" instantiated to "c6" is swept in optimizing("C:\TangCores\TangPong\src\pong\score_counters_to_segments.v":40)
+WARN  (NL0002) : The module "ls02" instantiated to "d2c" is swept in optimizing("C:\TangCores\TangPong\src\pong\score_counters_to_segments.v":50)
+WARN  (NL0002) : The module "ls153" instantiated to "d6" is swept in optimizing("C:\TangCores\TangPong\src\pong\score_counters_to_segments.v":41)
+WARN  (NL0002) : The module "ls10" instantiated to "e2c" is swept in optimizing("C:\TangCores\TangPong\src\pong\score_counters_to_segments.v":48)
+WARN  (NL0002) : The module "ls27" instantiated to "e3a" is swept in optimizing("C:\TangCores\TangPong\src\pong\score_counters_to_segments.v":46)
+WARN  (NL0002) : The module "ls27" instantiated to "e3b" is swept in optimizing("C:\TangCores\TangPong\src\pong\score_counters_to_segments.v":47)
+WARN  (NL0002) : The module "ls27" instantiated to "e3c" is swept in optimizing("C:\TangCores\TangPong\src\pong\score_counters_to_segments.v":49)
+WARN  (NL0002) : The module "ls25" instantiated to "f2a" is swept in optimizing("C:\TangCores\TangPong\src\pong\score_counters_to_segments.v":56)
+WARN  (NL0002) : The module "ls02" instantiated to "g1a" is swept in optimizing("C:\TangCores\TangPong\src\pong\score_counters_to_segments.v":53)
+WARN  (NL0002) : The module "score_segments_to_video" instantiated to "sb3" is swept in optimizing("C:\TangCores\TangPong\src\pong\score.v":45)
+WARN  (NL0002) : The module "ls00" instantiated to "c3d" is swept in optimizing("C:\TangCores\TangPong\src\pong\score_segments_to_video.v":39)
+WARN  (NL0002) : The module "ls10" instantiated to "c4c" is swept in optimizing("C:\TangCores\TangPong\src\pong\score_segments_to_video.v":69)
+WARN  (NL0002) : The module "ls02" instantiated to "d2b" is swept in optimizing("C:\TangCores\TangPong\src\pong\score_segments_to_video.v":57)
+WARN  (NL0002) : The module "ls30" instantiated to "d3" is swept in optimizing("C:\TangCores\TangPong\src\pong\score_segments_to_video.v":83)
+WARN  (NL0002) : The module "ls10" instantiated to "d4a" is swept in optimizing("C:\TangCores\TangPong\src\pong\score_segments_to_video.v":63)
+WARN  (NL0002) : The module "ls10" instantiated to "d4b" is swept in optimizing("C:\TangCores\TangPong\src\pong\score_segments_to_video.v":78)
+WARN  (NL0002) : The module "ls10" instantiated to "d4c" is swept in optimizing("C:\TangCores\TangPong\src\pong\score_segments_to_video.v":75)
+WARN  (NL0002) : The module "ls10" instantiated to "d5a" is swept in optimizing("C:\TangCores\TangPong\src\pong\score_segments_to_video.v":72)
+WARN  (NL0002) : The module "ls10" instantiated to "d5b" is swept in optimizing("C:\TangCores\TangPong\src\pong\score_segments_to_video.v":81)
+WARN  (NL0002) : The module "ls10" instantiated to "d5c" is swept in optimizing("C:\TangCores\TangPong\src\pong\score_segments_to_video.v":66)
+WARN  (NL0002) : The module "ls10" instantiated to "e2a" is swept in optimizing("C:\TangCores\TangPong\src\pong\score_segments_to_video.v":45)
+WARN  (NL0002) : The module "ls04" instantiated to "e4a" is swept in optimizing("C:\TangCores\TangPong\src\pong\score_segments_to_video.v":48)
+WARN  (NL0002) : The module "ls04" instantiated to "e4b" is swept in optimizing("C:\TangCores\TangPong\src\pong\score_segments_to_video.v":42)
+WARN  (NL0002) : The module "ls04" instantiated to "e4c" is swept in optimizing("C:\TangCores\TangPong\src\pong\score_segments_to_video.v":51)
+WARN  (NL0002) : The module "ls27" instantiated to "e5b" is swept in optimizing("C:\TangCores\TangPong\src\pong\score_segments_to_video.v":60)
+WARN  (NL0002) : The module "ls27" instantiated to "e5c" is swept in optimizing("C:\TangCores\TangPong\src\pong\score_segments_to_video.v":54)
+WARN  (NL0002) : The module "ls00" instantiated to "c3a" is swept in optimizing("C:\TangCores\TangPong\src\pong\sound.v":50)
+WARN  (NL0002) : The module "ls00" instantiated to "c3b" is swept in optimizing("C:\TangCores\TangPong\src\pong\sound.v":59)
+WARN  (NL0002) : The module "ls00" instantiated to "c3c" is swept in optimizing("C:\TangCores\TangPong\src\pong\sound.v":40)
+WARN  (NL0002) : The module "ls10" instantiated to "c4b" is swept in optimizing("C:\TangCores\TangPong\src\pong\sound.v":62)
+WARN  (NL0002) : The module "video" instantiated to "v" is swept in optimizing("C:\TangCores\TangPong\src\pong\pong.v":83)
+WARN  (NL0002) : The module "ls86" instantiated to "a4d" is swept in optimizing("C:\TangCores\TangPong\src\pong\video.v":38)
+WARN  (NL0002) : The module "ls00" instantiated to "b2c" is swept in optimizing("C:\TangCores\TangPong\src\pong\video.v":51)
+WARN  (NL0002) : The module "ls00" instantiated to "b2d" is swept in optimizing("C:\TangCores\TangPong\src\pong\video.v":52)
+WARN  (NL0002) : The module "ls04" instantiated to "e4e" is swept in optimizing("C:\TangCores\TangPong\src\pong\video.v":39)
+WARN  (NL0002) : The module "ls04" instantiated to "e4f" is swept in optimizing("C:\TangCores\TangPong\src\pong\video.v":43)
+WARN  (NL0002) : The module "ls25" instantiated to "f2b" is swept in optimizing("C:\TangCores\TangPong\src\pong\video.v":42)
+WARN  (NL0002) : The module "ls02" instantiated to "g1b" is swept in optimizing("C:\TangCores\TangPong\src\pong\video.v":46)
+WARN  (NL0002) : The module "ls00" instantiated to "g3a" is swept in optimizing("C:\TangCores\TangPong\src\pong\video.v":48)
+WARN  (NL0002) : The module "ls00" instantiated to "g3d" is swept in optimizing("C:\TangCores\TangPong\src\pong\video.v":49)
+WARN  (NL0002) : The module "audio_info_frame" instantiated to "audio_info_frame" is swept in optimizing("C:\TangCores\TangPong\src\hdmi2\packet_picker.sv":147)
+WARN  (NL0002) : The module "audio_sample_packet" instantiated to "audio_sample_packet" is swept in optimizing("C:\TangCores\TangPong\src\hdmi2\packet_picker.sv":135)
+WARN  (NL0002) : The module "auxiliary_video_information_info_frame" instantiated to "auxiliary_video_information_info_frame" is swept in optimizing("C:\TangCores\TangPong\src\hdmi2\packet_picker.sv":141)
+WARN  (NL0002) : The module "source_product_description_info_frame" instantiated to "source_product_description_info_frame" is swept in optimizing("C:\TangCores\TangPong\src\hdmi2\packet_picker.sv":144)
+[95%] Generate netlist file "C:\TangCores\TangPong\impl\gwsynthesis\pongtang_console138k.vg" completed
+[100%] Generate report file "C:\TangCores\TangPong\impl\gwsynthesis\pongtang_console138k_syn.rpt.html" completed
+GowinSynthesis finish
+Reading netlist file: "C:\TangCores\TangPong\impl\gwsynthesis\pongtang_console138k.vg"
+Parsing netlist file "C:\TangCores\TangPong\impl\gwsynthesis\pongtang_console138k.vg" completed
+WARN  (PA1019) : Invalid VCO frequency 'FCLKIN*FBDIV_SEL*(MDIV_SEL+MDIV_FRAC_SEL/8)/IDIV_SEL' to 'PLL_inst'(PLL) set by 'gowin_pll_27' of module, suitable range is from 650MHz to 1300MHz.
+WARN  (PA1019) : Invalid VCO frequency 'FCLKIN*FBDIV_SEL*(MDIV_SEL+MDIV_FRAC_SEL/8)/IDIV_SEL' to 'PLL_inst'(PLL) set by 'gowin_pll_hdmi' of module, suitable range is from 650MHz to 1300MHz.
+Processing netlist completed
+Reading constraint file: "C:\TangCores\TangPong\src\boards\console138k.cst"
+Physical Constraint parsed completed
+Running placement......
+[10%] Placement Phase 0 completed
+[20%] Placement Phase 1 completed
+[30%] Placement Phase 2 completed
+WARN  (TA1132) :  'game/hreset' was determined to be a clock but was not created.
+WARN  (TA1132) :  'game/vball240' was determined to be a clock but was not created.
+WARN  (TA1132) :  'pvblank' was determined to be a clock but was not created.
+WARN  (TA1132) :  'game/s/sb1/c7/jkff1/n4_6_2' was determined to be a clock but was not created.
+WARN  (TA1132) :  's1a' was determined to be a clock but was not created.
+WARN  (TA1132) :  's1b' was determined to be a clock but was not created.
+WARN  (TA1132) :  's1d' was determined to be a clock but was not created.
+WARN  (TA1132) :  'game/s/sb1/d7/jkff1/n4_6_4' was determined to be a clock but was not created.
+WARN  (TA1132) :  's2a' was determined to be a clock but was not created.
+WARN  (TA1132) :  's2b' was determined to be a clock but was not created.
+WARN  (TA1132) :  's2d' was determined to be a clock but was not created.
+WARN  (TA1132) :  'game/bal_hor/ball_hor_mov/f1/unused2' was determined to be a clock but was not created.
+WARN  (TA1132) :  'game/bal_hor/ball_hor_mov/f1/unused3' was determined to be a clock but was not created.
+WARN  (TA1132) :  'game/bal_hor/ball_hor_mov/qc' was determined to be a clock but was not created.
+WARN  (TA1132) :  'game/bal_hor/ball_hor_mov/f1/n5_6' was determined to be a clock but was not created.
+WARN  (TA1132) :  'game/bal_hor/ball_hor_mov/h2b/n4_7' was determined to be a clock but was not created.
+WARN  (TA1132) :  'game/bal_hor/ball_hor_dir/d1a/d1a_to_h3b' was determined to be a clock but was not created.
+WARN  (TA1132) :  'game/n4_6_14' was determined to be a clock but was not created.
+WARN  (TA1132) :  'game/n14_6_13' was determined to be a clock but was not created.
+WARN  (TA1132) :  'game/n4_13' was determined to be a clock but was not created.
+WARN  (TA1132) :  'pad1' was determined to be a clock but was not created.
+WARN  (TA1132) :  'game/paddles/p1/a8_9/a8_9_qa' was determined to be a clock but was not created.
+WARN  (TA1132) :  'game/b1' was determined to be a clock but was not created.
+WARN  (TA1132) :  'game/c1' was determined to be a clock but was not created.
+WARN  (TA1132) :  'game/paddles/p1/a8_9/n5_9' was determined to be a clock but was not created.
+WARN  (TA1132) :  'game/paddles/p2/a8_9/a8_9_qa' was determined to be a clock but was not created.
+WARN  (TA1132) :  'game/b2' was determined to be a clock but was not created.
+WARN  (TA1132) :  'game/c2' was determined to be a clock but was not created.
+WARN  (TA1132) :  'game/paddles/p2/a8_9/n5_9' was determined to be a clock but was not created.
+WARN  (TA1132) :  'h4' was determined to be a clock but was not created.
+[50%] Placement Phase 3 completed
+Running routing......
+[60%] Routing Phase 0 completed
+[70%] Routing Phase 1 completed
+[80%] Routing Phase 2 completed
+WARN  (PR1014) : Generic routing resource will be used to clock signal 'sys_clk_d' by the specified constraint. And then it may lead to the excessive delay or skew
+[90%] Routing Phase 3 completed
+Running timing analysis......
+[95%] Timing analysis completed
+Placement and routing completed
+Bitstream generation in progress......
+Bitstream generation completed
+Running power analysis......
+[100%] Power analysis completed
+Generate file "C:\TangCores\TangPong\impl\pnr\pongtang_console138k.power.html" completed
+Generate file "C:\TangCores\TangPong\impl\pnr\pongtang_console138k.pin.html" completed
+Generate file "C:\TangCores\TangPong\impl\pnr\pongtang_console138k.rpt.html" completed
+Generate file "C:\TangCores\TangPong\impl\pnr\pongtang_console138k.rpt.txt" completed
+Generate file "C:\TangCores\TangPong\impl\pnr\pongtang_console138k.tr.html" completed
+Generate file "C:\TangCores\TangPong\impl\pnr\pongtang_console138k.tr" completed
+Sat Sep 26 22:16:54 2026
+
