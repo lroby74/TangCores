@@ -48,3 +48,7 @@
 3. Build utente → ciclo fix guidato da build.log (mai alla cieca!).
 4. Test HW: video, controlli (tutti i tipi!), audio, reset, 2P se previsto.
 5. Release: README standalone (con nota OSD se ROM-less!), ATTRIBUTION.md, VERSION v1.0, zip unico, tag + .bin.
+
+## 5. ZX81 (prossimo core) — vincoli utente
+- Caricamento nastro 1:1 a velocità originale (~300 baud), MAI accelerato.
+- Espansione RAM 16KB sempre presente (molti giochi la richiedono).
